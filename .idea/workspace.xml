@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="269b21b0-37d4-4eca-8a7f-58eaad4803fa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/LinkList.js" />
+    <list default="true" id="269b21b0-37d4-4eca-8a7f-58eaad4803fa" name="Default" comment="Add querying with Apollo Client">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/App.js" afterPath="$PROJECT_DIR$/src/components/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Link.js" afterPath="$PROJECT_DIR$/src/components/Link.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkList.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LinkList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/LinkList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            <state relative-caret-position="217">
+              <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
                 <marker date="1522181451000" expanded="true" signature="688:845" ph="query...{&#10;      feed {&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }&#10;      }&#10;  }" />
@@ -50,6 +48,16 @@
                 <marker date="1522181451000" expanded="true" signature="792:795" ph="url...url" />
                 <marker date="1522181451000" expanded="true" signature="810:821" ph="description...description" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -89,10 +97,10 @@
         <option value="$PROJECT_DIR$/server/src/resolvers/Subscription.js" />
         <option value="$PROJECT_DIR$/server/src/resolvers/Mutation.js" />
         <option value="$PROJECT_DIR$/server/src/index.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/components/Link.js" />
         <option value="$PROJECT_DIR$/src/components/App.js" />
         <option value="$PROJECT_DIR$/src/components/LinkList.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -219,7 +227,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522155591404</updated>
-      <workItem from="1522155593657" duration="6211000" />
+      <workItem from="1522155593657" duration="6442000" />
     </task>
     <task id="LOCAL-00001" summary="Add Apollo Client and fix the project structure">
       <created>1522158965873</created>
@@ -235,11 +243,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522172964857</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add querying with Apollo Client">
+      <created>1522181941917</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1522181941917</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6211000" />
+    <option name="totallyTimeSpent" value="6442000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="846" height="873" extended-state="0" />
@@ -274,7 +289,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Apollo Client and fix the project structure" />
     <MESSAGE value="Add server file on oriject" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add server file on oriject" />
+    <MESSAGE value="Add querying with Apollo Client" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add querying with Apollo Client" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -364,14 +380,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/registerServiceWorker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1676">
@@ -440,8 +448,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/LinkList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        <state relative-caret-position="217">
+          <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
             <marker date="1522181451000" expanded="true" signature="688:845" ph="query...{&#10;      feed {&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }&#10;      }&#10;  }" />
@@ -458,6 +466,14 @@
             <marker date="1522181451000" expanded="true" signature="792:795" ph="url...url" />
             <marker date="1522181451000" expanded="true" signature="810:821" ph="description...description" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
