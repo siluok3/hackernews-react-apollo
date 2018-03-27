@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="269b21b0-37d4-4eca-8a7f-58eaad4803fa" name="Default" comment="Add querying with Apollo Client">
+    <list default="true" id="269b21b0-37d4-4eca-8a7f-58eaad4803fa" name="Default" comment="Project Config">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/CreateLink.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/App.js" afterPath="$PROJECT_DIR$/src/components/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/LinkList.js" afterPath="$PROJECT_DIR$/src/components/LinkList.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,39 +33,56 @@
       <file leaf-file-name="LinkList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/LinkList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="30" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
-                <marker date="1522181451000" expanded="true" signature="688:845" ph="query...{&#10;      feed {&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }&#10;      }&#10;  }" />
-                <marker date="1522181451000" expanded="true" signature="694:703" ph="FeedQuery...FeedQuery" />
-                <marker date="1522181451000" expanded="true" signature="704:845" ph="{...}" />
-                <marker date="1522181451000" expanded="true" signature="712:716" ph="feed...feed" />
-                <marker date="1522181451000" expanded="true" signature="712:841" ph="feed...{&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }&#10;      }" />
-                <marker date="1522181451000" expanded="true" signature="717:841" ph="{...}" />
-                <marker date="1522181451000" expanded="true" signature="729:734" ph="links...links" />
-                <marker date="1522181451000" expanded="true" signature="729:833" ph="links...{&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }" />
-                <marker date="1522181451000" expanded="true" signature="735:833" ph="{...}" />
-                <marker date="1522181451000" expanded="true" signature="751:753" ph="id...id" />
-                <marker date="1522181451000" expanded="true" signature="768:777" ph="createdAt...createdAt" />
-                <marker date="1522181451000" expanded="true" signature="792:795" ph="url...url" />
-                <marker date="1522181451000" expanded="true" signature="810:821" ph="description...description" />
+                <marker date="1522182384000" expanded="true" signature="687:844" ph="query...{&#10;      feed {&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }&#10;      }&#10;  }" />
+                <marker date="1522182384000" expanded="true" signature="693:702" ph="FeedQuery...FeedQuery" />
+                <marker date="1522182384000" expanded="true" signature="703:844" ph="{...}" />
+                <marker date="1522182384000" expanded="true" signature="711:715" ph="feed...feed" />
+                <marker date="1522182384000" expanded="true" signature="711:840" ph="feed...{&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }&#10;      }" />
+                <marker date="1522182384000" expanded="true" signature="716:840" ph="{...}" />
+                <marker date="1522182384000" expanded="true" signature="728:733" ph="links...links" />
+                <marker date="1522182384000" expanded="true" signature="728:832" ph="links...{&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }" />
+                <marker date="1522182384000" expanded="true" signature="734:832" ph="{...}" />
+                <marker date="1522182384000" expanded="true" signature="750:752" ph="id...id" />
+                <marker date="1522182384000" expanded="true" signature="767:776" ph="createdAt...createdAt" />
+                <marker date="1522182384000" expanded="true" signature="791:794" ph="url...url" />
+                <marker date="1522182384000" expanded="true" signature="809:820" ph="description...description" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="CreateLink.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/CreateLink.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="612">
+              <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+                <marker date="1522183197000" expanded="true" signature="1336:1543" ph="mutation...{&#10;        post(description: $description, url: $url) {&#10;            id&#10;            createdAt&#10;            url&#10;            description&#10;        }&#10;    }" />
+                <marker date="1522183197000" expanded="true" signature="1345:1357" ph="PostMutation...PostMutation" />
+                <marker date="1522183197000" expanded="true" signature="1357:1395" ph="(...)" />
+                <marker date="1522183197000" expanded="true" signature="1372:1378" ph="String...String" />
+                <marker date="1522183197000" expanded="true" signature="1387:1393" ph="String...String" />
+                <marker date="1522183197000" expanded="true" signature="1396:1543" ph="{...}" />
+                <marker date="1522183197000" expanded="true" signature="1406:1410" ph="post...post" />
+                <marker date="1522183197000" expanded="true" signature="1406:1537" ph="post...{&#10;            id&#10;            createdAt&#10;            url&#10;            description&#10;        }" />
+                <marker date="1522183197000" expanded="true" signature="1410:1448" ph="(...)" />
+                <marker date="1522183197000" expanded="true" signature="1411:1422" ph="description...description" />
+                <marker date="1522183197000" expanded="true" signature="1438:1441" ph="url...url" />
+                <marker date="1522183197000" expanded="true" signature="1449:1537" ph="{...}" />
+                <marker date="1522183197000" expanded="true" signature="1463:1465" ph="id...id" />
+                <marker date="1522183197000" expanded="true" signature="1478:1487" ph="createdAt...createdAt" />
+                <marker date="1522183197000" expanded="true" signature="1500:1503" ph="url...url" />
+                <marker date="1522183197000" expanded="true" signature="1516:1527" ph="description...description" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -98,9 +118,10 @@
         <option value="$PROJECT_DIR$/server/src/resolvers/Mutation.js" />
         <option value="$PROJECT_DIR$/server/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/Link.js" />
-        <option value="$PROJECT_DIR$/src/components/App.js" />
         <option value="$PROJECT_DIR$/src/components/LinkList.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/components/CreateLink.js" />
+        <option value="$PROJECT_DIR$/src/components/App.js" />
       </list>
     </option>
   </component>
@@ -227,7 +248,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522155591404</updated>
-      <workItem from="1522155593657" duration="6442000" />
+      <workItem from="1522155593657" duration="7752000" />
     </task>
     <task id="LOCAL-00001" summary="Add Apollo Client and fix the project structure">
       <created>1522158965873</created>
@@ -250,11 +271,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522181941917</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Project Config">
+      <created>1522182142402</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1522182142402</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6442000" />
+    <option name="totallyTimeSpent" value="7752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="846" height="873" extended-state="0" />
@@ -290,7 +318,8 @@
     <MESSAGE value="Add Apollo Client and fix the project structure" />
     <MESSAGE value="Add server file on oriject" />
     <MESSAGE value="Add querying with Apollo Client" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add querying with Apollo Client" />
+    <MESSAGE value="Project Config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project Config" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -310,17 +339,6 @@
         <state relative-caret-position="306">
           <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <marker date="1522156240000" expanded="true" signature="0:483" ph="{&quot;name&quot;: &quot;hackernews-react-apollo&quot;...}" />
-            <marker date="1522156240000" expanded="true" signature="98:105" ph="{&quot;react&quot;: &quot;^16.2.0&quot;...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -420,16 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/yarn.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -448,32 +456,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/LinkList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="30" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <marker date="1522181451000" expanded="true" signature="688:845" ph="query...{&#10;      feed {&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }&#10;      }&#10;  }" />
-            <marker date="1522181451000" expanded="true" signature="694:703" ph="FeedQuery...FeedQuery" />
-            <marker date="1522181451000" expanded="true" signature="704:845" ph="{...}" />
-            <marker date="1522181451000" expanded="true" signature="712:716" ph="feed...feed" />
-            <marker date="1522181451000" expanded="true" signature="712:841" ph="feed...{&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }&#10;      }" />
-            <marker date="1522181451000" expanded="true" signature="717:841" ph="{...}" />
-            <marker date="1522181451000" expanded="true" signature="729:734" ph="links...links" />
-            <marker date="1522181451000" expanded="true" signature="729:833" ph="links...{&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }" />
-            <marker date="1522181451000" expanded="true" signature="735:833" ph="{...}" />
-            <marker date="1522181451000" expanded="true" signature="751:753" ph="id...id" />
-            <marker date="1522181451000" expanded="true" signature="768:777" ph="createdAt...createdAt" />
-            <marker date="1522181451000" expanded="true" signature="792:795" ph="url...url" />
-            <marker date="1522181451000" expanded="true" signature="810:821" ph="description...description" />
+            <marker date="1522182384000" expanded="true" signature="687:844" ph="query...{&#10;      feed {&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }&#10;      }&#10;  }" />
+            <marker date="1522182384000" expanded="true" signature="693:702" ph="FeedQuery...FeedQuery" />
+            <marker date="1522182384000" expanded="true" signature="703:844" ph="{...}" />
+            <marker date="1522182384000" expanded="true" signature="711:715" ph="feed...feed" />
+            <marker date="1522182384000" expanded="true" signature="711:840" ph="feed...{&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }&#10;      }" />
+            <marker date="1522182384000" expanded="true" signature="716:840" ph="{...}" />
+            <marker date="1522182384000" expanded="true" signature="728:733" ph="links...links" />
+            <marker date="1522182384000" expanded="true" signature="728:832" ph="links...{&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }" />
+            <marker date="1522182384000" expanded="true" signature="734:832" ph="{...}" />
+            <marker date="1522182384000" expanded="true" signature="750:752" ph="id...id" />
+            <marker date="1522182384000" expanded="true" signature="767:776" ph="createdAt...createdAt" />
+            <marker date="1522182384000" expanded="true" signature="791:794" ph="url...url" />
+            <marker date="1522182384000" expanded="true" signature="809:820" ph="description...description" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <marker date="1522156240000" expanded="true" signature="0:483" ph="{&quot;name&quot;: &quot;hackernews-react-apollo&quot;...}" />
+            <marker date="1522156240000" expanded="true" signature="98:105" ph="{&quot;react&quot;: &quot;^16.2.0&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CreateLink.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <marker date="1522183197000" expanded="true" signature="1336:1543" ph="mutation...{&#10;        post(description: $description, url: $url) {&#10;            id&#10;            createdAt&#10;            url&#10;            description&#10;        }&#10;    }" />
+            <marker date="1522183197000" expanded="true" signature="1345:1357" ph="PostMutation...PostMutation" />
+            <marker date="1522183197000" expanded="true" signature="1357:1395" ph="(...)" />
+            <marker date="1522183197000" expanded="true" signature="1372:1378" ph="String...String" />
+            <marker date="1522183197000" expanded="true" signature="1387:1393" ph="String...String" />
+            <marker date="1522183197000" expanded="true" signature="1396:1543" ph="{...}" />
+            <marker date="1522183197000" expanded="true" signature="1406:1410" ph="post...post" />
+            <marker date="1522183197000" expanded="true" signature="1406:1537" ph="post...{&#10;            id&#10;            createdAt&#10;            url&#10;            description&#10;        }" />
+            <marker date="1522183197000" expanded="true" signature="1410:1448" ph="(...)" />
+            <marker date="1522183197000" expanded="true" signature="1411:1422" ph="description...description" />
+            <marker date="1522183197000" expanded="true" signature="1438:1441" ph="url...url" />
+            <marker date="1522183197000" expanded="true" signature="1449:1537" ph="{...}" />
+            <marker date="1522183197000" expanded="true" signature="1463:1465" ph="id...id" />
+            <marker date="1522183197000" expanded="true" signature="1478:1487" ph="createdAt...createdAt" />
+            <marker date="1522183197000" expanded="true" signature="1500:1503" ph="url...url" />
+            <marker date="1522183197000" expanded="true" signature="1516:1527" ph="description...description" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
