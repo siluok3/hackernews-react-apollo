@@ -14,11 +14,13 @@ class LinkList extends Component {
             return <div>Τι φκιαχς; Τγαήμσες τμαραφέτ</div>
         }
 
-        const linksToRender = this.props.feedQuery.feed.links
+        const linksToRender = this.props.feedQuery.feed.links;
 
         return(
             <div>
-                { linksToRender.map(link => <Link key={link.id} link={link} />)}
+                {linksToRender.map((link, index) => (
+                    <Link key={link.id} index={index} link={link} />
+                ))}
             </div>
         );
     }
@@ -32,9 +34,19 @@ const FEED_QUERY = gql`
               createdAt
               url
               description
+              postedBy {
+                  id
+                  name
+              }
+              votes {
+                  id
+                  user {
+                      id
+                  }
+              }
           }
       }
-  } 
+  }
 `;
 //wrap LinkList Component with FEED_QUERY
 //define the prop name as feedQuery( data is the default)
