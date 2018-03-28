@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="269b21b0-37d4-4eca-8a7f-58eaad4803fa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/resolvers/Mutation.js" afterPath="$PROJECT_DIR$/server/src/resolvers/Mutation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
+    <list default="true" id="269b21b0-37d4-4eca-8a7f-58eaad4803fa" name="Default" comment="Add Apollo Link Middleware to authorize the logged in user">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -160,8 +159,8 @@
       <file leaf-file-name="Mutation.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/src/resolvers/Mutation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="576">
+              <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -200,7 +199,6 @@
         <option value="$PROJECT_DIR$/server/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/Link.js" />
         <option value="$PROJECT_DIR$/src/components/LinkList.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/components/CreateLink.js" />
         <option value="$PROJECT_DIR$/src/constants.js" />
         <option value="$PROJECT_DIR$/src/components/App.js" />
@@ -208,6 +206,7 @@
         <option value="$PROJECT_DIR$/src/components/Login.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/server/src/resolvers/Mutation.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -348,7 +347,7 @@
       <option name="presentableId" value="Default" />
       <updated>1522155591404</updated>
       <workItem from="1522155593657" duration="9100000" />
-      <workItem from="1522223148552" duration="5875000" />
+      <workItem from="1522223148552" duration="6163000" />
     </task>
     <task id="LOCAL-00001" summary="Add Apollo Client and fix the project structure">
       <created>1522158965873</created>
@@ -406,11 +405,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522234060213</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add Apollo Link Middleware to authorize the logged in user">
+      <created>1522235224882</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1522235224882</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14975000" />
+    <option name="totallyTimeSpent" value="15263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3840" y="-157" width="1920" height="1053" extended-state="6" />
@@ -451,7 +457,8 @@
     <MESSAGE value="Add routing" />
     <MESSAGE value="Add authentication option for logging in and signing up" />
     <MESSAGE value="Add login and signup mutations with Apollo's gql" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add login and signup mutations with Apollo's gql" />
+    <MESSAGE value="Add Apollo Link Middleware to authorize the logged in user" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Apollo Link Middleware to authorize the logged in user" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -658,13 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/constants.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -830,10 +830,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/resolvers/Mutation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="576">
+          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
           <folding />
         </state>
       </provider>
