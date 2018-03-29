@@ -40,6 +40,10 @@ class Link extends Component {
             variables: {
                 linkId
             },
+            //update the cache to see real time results, store here is the current cache
+            update: (store, { data: { vote } }) => {
+                this.props.updateStoreAfterVote(store, vote, linkId)
+            },
         })
     }
 }
