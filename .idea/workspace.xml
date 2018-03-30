@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="269b21b0-37d4-4eca-8a7f-58eaad4803fa" name="Default" comment="Add Search Component">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="269b21b0-37d4-4eca-8a7f-58eaad4803fa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/LinkList.js" afterPath="$PROJECT_DIR$/src/components/LinkList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,64 +69,97 @@
       <file leaf-file-name="LinkList.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/LinkList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+            <state relative-caret-position="272">
+              <caret line="88" column="16" lean-forward="false" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
-                <marker date="1522436024000" expanded="true" signature="1777:2413" ph="subscription...{&#10;                    newLink {&#10;                        node {&#10;                            id&#10;                            url&#10;                            description&#10;                            createdAt&#10;                            postedBy {&#10;                                id&#10;                                name&#10;                            }&#10;                            votes {&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }&#10;                        }&#10;                    }&#10;                }" />
-                <marker date="1522436024000" expanded="true" signature="1790:2413" ph="{...}" />
-                <marker date="1522436024000" expanded="true" signature="1812:1819" ph="newLink...newLink" />
-                <marker date="1522436024000" expanded="true" signature="1812:2395" ph="newLink...{&#10;                        node {&#10;                            id&#10;                            url&#10;                            description&#10;                            createdAt&#10;                            postedBy {&#10;                                id&#10;                                name&#10;                            }&#10;                            votes {&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }&#10;                        }&#10;                    }" />
-                <marker date="1522436024000" expanded="true" signature="1820:2395" ph="{...}" />
-                <marker date="1522436024000" expanded="true" signature="1846:1850" ph="node...node" />
-                <marker date="1522436024000" expanded="true" signature="1846:2373" ph="node...{&#10;                            id&#10;                            url&#10;                            description&#10;                            createdAt&#10;                            postedBy {&#10;                                id&#10;                                name&#10;                            }&#10;                            votes {&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }&#10;                        }" />
-                <marker date="1522436024000" expanded="true" signature="1851:2373" ph="{...}" />
-                <marker date="1522436024000" expanded="true" signature="1881:1883" ph="id...id" />
-                <marker date="1522436024000" expanded="true" signature="1912:1915" ph="url...url" />
-                <marker date="1522436024000" expanded="true" signature="1944:1955" ph="description...description" />
-                <marker date="1522436024000" expanded="true" signature="1984:1993" ph="createdAt...createdAt" />
-                <marker date="1522436024000" expanded="true" signature="2022:2030" ph="postedBy...postedBy" />
-                <marker date="1522436024000" expanded="true" signature="2022:2134" ph="postedBy...{&#10;                                id&#10;                                name&#10;                            }" />
-                <marker date="1522436024000" expanded="true" signature="2031:2134" ph="{...}" />
-                <marker date="1522436024000" expanded="true" signature="2065:2067" ph="id...id" />
-                <marker date="1522436024000" expanded="true" signature="2100:2104" ph="name...name" />
-                <marker date="1522436024000" expanded="true" signature="2163:2168" ph="votes...votes" />
-                <marker date="1522436024000" expanded="true" signature="2163:2347" ph="votes...{&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }" />
-                <marker date="1522436024000" expanded="true" signature="2169:2347" ph="{...}" />
-                <marker date="1522436024000" expanded="true" signature="2203:2205" ph="id...id" />
-                <marker date="1522436024000" expanded="true" signature="2238:2242" ph="user...user" />
-                <marker date="1522436024000" expanded="true" signature="2238:2317" ph="user...{&#10;                                    id&#10;                                }" />
-                <marker date="1522436024000" expanded="true" signature="2243:2317" ph="{...}" />
-                <marker date="1522436024000" expanded="true" signature="2281:2283" ph="id...id" />
-                <marker date="1522436024000" expanded="true" signature="2831:3198" ph="query...{&#10;      feed {&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }&#10;      }&#10;  }" />
-                <marker date="1522436024000" expanded="true" signature="2831:3202" ph="query...{&#10;      feed {&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;              postedBy {&#10;                  id&#10;                  name&#10;              }&#10;              votes {&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }&#10;          }&#10;      }&#10;  }" />
-                <marker date="1522436024000" expanded="true" signature="2837:2846" ph="FeedQuery...FeedQuery" />
-                <marker date="1522436024000" expanded="true" signature="2847:3198" ph="{...}" />
-                <marker date="1522436024000" expanded="true" signature="2855:2859" ph="feed...feed" />
-                <marker date="1522436024000" expanded="true" signature="2855:3190" ph="feed...{&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }&#10;      }" />
-                <marker date="1522436024000" expanded="true" signature="2855:3198" ph="feed...{&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;              postedBy {&#10;                  id&#10;                  name&#10;              }&#10;              votes {&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }&#10;          }&#10;      }" />
-                <marker date="1522436024000" expanded="true" signature="2860:3190" ph="{...}" />
-                <marker date="1522436024000" expanded="true" signature="2872:2877" ph="links...links" />
-                <marker date="1522436024000" expanded="true" signature="2872:2964" ph="links...{&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }" />
-                <marker date="1522436024000" expanded="true" signature="2872:3190" ph="links...{&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;              postedBy {&#10;                  id&#10;                  name&#10;              }&#10;              votes {&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }&#10;          }" />
-                <marker date="1522436024000" expanded="true" signature="2878:2964" ph="{...}" />
-                <marker date="1522436024000" expanded="true" signature="2894:2896" ph="id...id" />
-                <marker date="1522436024000" expanded="true" signature="2911:2920" ph="createdAt...createdAt" />
-                <marker date="1522436024000" expanded="true" signature="2935:2938" ph="url...url" />
-                <marker date="1522436024000" expanded="true" signature="2953:2964" ph="description...description" />
-                <marker date="1522436024000" expanded="true" signature="2979:2987" ph="postedBy...postedBy" />
-                <marker date="1522436024000" expanded="true" signature="2979:3049" ph="postedBy...{&#10;                  id&#10;                  name&#10;              }" />
-                <marker date="1522436024000" expanded="true" signature="2988:3049" ph="{...}" />
-                <marker date="1522436024000" expanded="true" signature="3008:3010" ph="id...id" />
-                <marker date="1522436024000" expanded="true" signature="3029:3033" ph="name...name" />
-                <marker date="1522436024000" expanded="true" signature="3064:3069" ph="votes...votes" />
-                <marker date="1522436024000" expanded="true" signature="3064:3178" ph="votes...{&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }" />
-                <marker date="1522436024000" expanded="true" signature="3070:3178" ph="{...}" />
-                <marker date="1522436024000" expanded="true" signature="3090:3092" ph="id...id" />
-                <marker date="1522436024000" expanded="true" signature="3111:3115" ph="user...user" />
-                <marker date="1522436024000" expanded="true" signature="3111:3162" ph="user...{&#10;                      id&#10;                  }" />
-                <marker date="1522436024000" expanded="true" signature="3116:3162" ph="{...}" />
-                <marker date="1522436024000" expanded="true" signature="3140:3142" ph="id...id" />
+                <marker date="1522436916000" expanded="true" signature="1665:2301" ph="subscription...{&#10;                    newLink {&#10;                        node {&#10;                            id&#10;                            url&#10;                            description&#10;                            createdAt&#10;                            postedBy {&#10;                                id&#10;                                name&#10;                            }&#10;                            votes {&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }&#10;                        }&#10;                    }&#10;                }" />
+                <marker date="1522436916000" expanded="true" signature="1678:2301" ph="{...}" />
+                <marker date="1522436916000" expanded="true" signature="1700:1707" ph="newLink...newLink" />
+                <marker date="1522436916000" expanded="true" signature="1700:2283" ph="newLink...{&#10;                        node {&#10;                            id&#10;                            url&#10;                            description&#10;                            createdAt&#10;                            postedBy {&#10;                                id&#10;                                name&#10;                            }&#10;                            votes {&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }&#10;                        }&#10;                    }" />
+                <marker date="1522436916000" expanded="true" signature="1708:2283" ph="{...}" />
+                <marker date="1522436916000" expanded="true" signature="1734:1738" ph="node...node" />
+                <marker date="1522436916000" expanded="true" signature="1734:2261" ph="node...{&#10;                            id&#10;                            url&#10;                            description&#10;                            createdAt&#10;                            postedBy {&#10;                                id&#10;                                name&#10;                            }&#10;                            votes {&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }&#10;                        }" />
+                <marker date="1522436916000" expanded="true" signature="1739:2261" ph="{...}" />
+                <marker date="1522436916000" expanded="true" signature="1769:1771" ph="id...id" />
+                <marker date="1522436916000" expanded="true" signature="1800:1803" ph="url...url" />
+                <marker date="1522436916000" expanded="true" signature="1832:1843" ph="description...description" />
+                <marker date="1522436916000" expanded="true" signature="1872:1881" ph="createdAt...createdAt" />
+                <marker date="1522436916000" expanded="true" signature="1910:1918" ph="postedBy...postedBy" />
+                <marker date="1522436916000" expanded="true" signature="1910:2022" ph="postedBy...{&#10;                                id&#10;                                name&#10;                            }" />
+                <marker date="1522436916000" expanded="true" signature="1919:2022" ph="{...}" />
+                <marker date="1522436916000" expanded="true" signature="1953:1955" ph="id...id" />
+                <marker date="1522436916000" expanded="true" signature="1988:1992" ph="name...name" />
+                <marker date="1522436916000" expanded="true" signature="2051:2056" ph="votes...votes" />
+                <marker date="1522436916000" expanded="true" signature="2051:2235" ph="votes...{&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }" />
+                <marker date="1522436916000" expanded="true" signature="2057:2235" ph="{...}" />
+                <marker date="1522436916000" expanded="true" signature="2091:2093" ph="id...id" />
+                <marker date="1522436916000" expanded="true" signature="2126:2130" ph="user...user" />
+                <marker date="1522436916000" expanded="true" signature="2126:2205" ph="user...{&#10;                                    id&#10;                                }" />
+                <marker date="1522436916000" expanded="true" signature="2131:2205" ph="{...}" />
+                <marker date="1522436916000" expanded="true" signature="2169:2171" ph="id...id" />
+                <marker date="1522436916000" expanded="true" signature="2809:3697" ph="subscription...{&#10;                    newVote {&#10;                        node {&#10;                            id&#10;                            link {&#10;                                id&#10;                                url&#10;                                description&#10;                                createdAt&#10;                                postedBy {&#10;                                    id&#10;                                    name&#10;                                }&#10;                                votes {&#10;                                    id&#10;                                    user {&#10;                                        id&#10;                                    }&#10;                                }&#10;                            }&#10;                            user {&#10;                                id&#10;                            }&#10;                        }&#10;                    }&#10;                }" />
+                <marker date="1522436916000" expanded="true" signature="2822:3697" ph="{...}" />
+                <marker date="1522436916000" expanded="true" signature="2844:2851" ph="newVote...newVote" />
+                <marker date="1522436916000" expanded="true" signature="2844:3679" ph="newVote...{&#10;                        node {&#10;                            id&#10;                            link {&#10;                                id&#10;                                url&#10;                                description&#10;                                createdAt&#10;                                postedBy {&#10;                                    id&#10;                                    name&#10;                                }&#10;                                votes {&#10;                                    id&#10;                                    user {&#10;                                        id&#10;                                    }&#10;                                }&#10;                            }&#10;                            user {&#10;                                id&#10;                            }&#10;                        }&#10;                    }" />
+                <marker date="1522436916000" expanded="true" signature="2852:3679" ph="{...}" />
+                <marker date="1522436916000" expanded="true" signature="2878:2882" ph="node...node" />
+                <marker date="1522436916000" expanded="true" signature="2878:3657" ph="node...{&#10;                            id&#10;                            link {&#10;                                id&#10;                                url&#10;                                description&#10;                                createdAt&#10;                                postedBy {&#10;                                    id&#10;                                    name&#10;                                }&#10;                                votes {&#10;                                    id&#10;                                    user {&#10;                                        id&#10;                                    }&#10;                                }&#10;                            }&#10;                            user {&#10;                                id&#10;                            }&#10;                        }" />
+                <marker date="1522436916000" expanded="true" signature="2883:3657" ph="{...}" />
+                <marker date="1522436916000" expanded="true" signature="2913:2915" ph="id...id" />
+                <marker date="1522436916000" expanded="true" signature="2944:2948" ph="link...link" />
+                <marker date="1522436916000" expanded="true" signature="2944:3531" ph="link...{&#10;                                id&#10;                                url&#10;                                description&#10;                                createdAt&#10;                                postedBy {&#10;                                    id&#10;                                    name&#10;                                }&#10;                                votes {&#10;                                    id&#10;                                    user {&#10;                                        id&#10;                                    }&#10;                                }&#10;                            }" />
+                <marker date="1522436916000" expanded="true" signature="2949:3531" ph="{...}" />
+                <marker date="1522436916000" expanded="true" signature="2983:2985" ph="id...id" />
+                <marker date="1522436916000" expanded="true" signature="3018:3021" ph="url...url" />
+                <marker date="1522436916000" expanded="true" signature="3054:3065" ph="description...description" />
+                <marker date="1522436916000" expanded="true" signature="3098:3107" ph="createdAt...createdAt" />
+                <marker date="1522436916000" expanded="true" signature="3140:3148" ph="postedBy...postedBy" />
+                <marker date="1522436916000" expanded="true" signature="3140:3264" ph="postedBy...{&#10;                                    id&#10;                                    name&#10;                                }" />
+                <marker date="1522436916000" expanded="true" signature="3149:3264" ph="{...}" />
+                <marker date="1522436916000" expanded="true" signature="3187:3189" ph="id...id" />
+                <marker date="1522436916000" expanded="true" signature="3226:3230" ph="name...name" />
+                <marker date="1522436916000" expanded="true" signature="3297:3302" ph="votes...votes" />
+                <marker date="1522436916000" expanded="true" signature="3297:3501" ph="votes...{&#10;                                    id&#10;                                    user {&#10;                                        id&#10;                                    }&#10;                                }" />
+                <marker date="1522436916000" expanded="true" signature="3303:3501" ph="{...}" />
+                <marker date="1522436916000" expanded="true" signature="3341:3343" ph="id...id" />
+                <marker date="1522436916000" expanded="true" signature="3380:3384" ph="user...user" />
+                <marker date="1522436916000" expanded="true" signature="3380:3467" ph="user...{&#10;                                        id&#10;                                    }" />
+                <marker date="1522436916000" expanded="true" signature="3385:3467" ph="{...}" />
+                <marker date="1522436916000" expanded="true" signature="3427:3429" ph="id...id" />
+                <marker date="1522436916000" expanded="true" signature="3560:3564" ph="user...user" />
+                <marker date="1522436916000" expanded="true" signature="3560:3631" ph="user...{&#10;                                id&#10;                            }" />
+                <marker date="1522436916000" expanded="true" signature="3565:3631" ph="{...}" />
+                <marker date="1522436916000" expanded="true" signature="3599:3601" ph="id...id" />
+                <marker date="1522436916000" expanded="true" signature="3917:4284" ph="query...{&#10;      feed {&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }&#10;      }&#10;  }" />
+                <marker date="1522436916000" expanded="true" signature="3917:4288" ph="query...{&#10;      feed {&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;              postedBy {&#10;                  id&#10;                  name&#10;              }&#10;              votes {&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }&#10;          }&#10;      }&#10;  }" />
+                <marker date="1522436916000" expanded="true" signature="3923:3932" ph="FeedQuery...FeedQuery" />
+                <marker date="1522436916000" expanded="true" signature="3933:4284" ph="{...}" />
+                <marker date="1522436916000" expanded="true" signature="3941:3945" ph="feed...feed" />
+                <marker date="1522436916000" expanded="true" signature="3941:4276" ph="feed...{&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }&#10;      }" />
+                <marker date="1522436916000" expanded="true" signature="3941:4284" ph="feed...{&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;              postedBy {&#10;                  id&#10;                  name&#10;              }&#10;              votes {&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }&#10;          }&#10;      }" />
+                <marker date="1522436916000" expanded="true" signature="3946:4276" ph="{...}" />
+                <marker date="1522436916000" expanded="true" signature="3958:3963" ph="links...links" />
+                <marker date="1522436916000" expanded="true" signature="3958:4050" ph="links...{&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }" />
+                <marker date="1522436916000" expanded="true" signature="3958:4276" ph="links...{&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;              postedBy {&#10;                  id&#10;                  name&#10;              }&#10;              votes {&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }&#10;          }" />
+                <marker date="1522436916000" expanded="true" signature="3964:4050" ph="{...}" />
+                <marker date="1522436916000" expanded="true" signature="3980:3982" ph="id...id" />
+                <marker date="1522436916000" expanded="true" signature="3997:4006" ph="createdAt...createdAt" />
+                <marker date="1522436916000" expanded="true" signature="4021:4024" ph="url...url" />
+                <marker date="1522436916000" expanded="true" signature="4039:4050" ph="description...description" />
+                <marker date="1522436916000" expanded="true" signature="4065:4073" ph="postedBy...postedBy" />
+                <marker date="1522436916000" expanded="true" signature="4065:4135" ph="postedBy...{&#10;                  id&#10;                  name&#10;              }" />
+                <marker date="1522436916000" expanded="true" signature="4074:4135" ph="{...}" />
+                <marker date="1522436916000" expanded="true" signature="4094:4096" ph="id...id" />
+                <marker date="1522436916000" expanded="true" signature="4115:4119" ph="name...name" />
+                <marker date="1522436916000" expanded="true" signature="4150:4155" ph="votes...votes" />
+                <marker date="1522436916000" expanded="true" signature="4150:4264" ph="votes...{&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }" />
+                <marker date="1522436916000" expanded="true" signature="4156:4264" ph="{...}" />
+                <marker date="1522436916000" expanded="true" signature="4176:4178" ph="id...id" />
+                <marker date="1522436916000" expanded="true" signature="4197:4201" ph="user...user" />
+                <marker date="1522436916000" expanded="true" signature="4197:4248" ph="user...{&#10;                      id&#10;                  }" />
+                <marker date="1522436916000" expanded="true" signature="4202:4248" ph="{...}" />
+                <marker date="1522436916000" expanded="true" signature="4226:4228" ph="id...id" />
               </folding>
             </state>
           </provider>
@@ -379,7 +408,7 @@
       <workItem from="1522155593657" duration="9100000" />
       <workItem from="1522223148552" duration="5875000" />
       <workItem from="1522338251086" duration="125000" />
-      <workItem from="1522422965047" duration="3277000" />
+      <workItem from="1522422965047" duration="4476000" />
     </task>
     <task id="LOCAL-00001" summary="Add Apollo Client and fix the project structure">
       <created>1522158965873</created>
@@ -458,11 +487,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522340453528</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add Subscription for when a Link is created by a mutation">
+      <created>1522436142056</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1522436142056</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25283000" />
+    <option name="totallyTimeSpent" value="26482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="917" height="873" extended-state="0" />
@@ -506,7 +542,8 @@
     <MESSAGE value="Add voting functionality to the app by using the vote mutation" />
     <MESSAGE value="Add voteMutation to add a vote to each Link" />
     <MESSAGE value="Add Search Component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Search Component" />
+    <MESSAGE value="Add Subscription for when a Link is created by a mutation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Subscription for when a Link is created by a mutation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -535,60 +572,93 @@
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-            <marker date="1522436024000" expanded="true" signature="1777:2413" ph="subscription...{&#10;                    newLink {&#10;                        node {&#10;                            id&#10;                            url&#10;                            description&#10;                            createdAt&#10;                            postedBy {&#10;                                id&#10;                                name&#10;                            }&#10;                            votes {&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }&#10;                        }&#10;                    }&#10;                }" />
-            <marker date="1522436024000" expanded="true" signature="1790:2413" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="1812:1819" ph="newLink...newLink" />
-            <marker date="1522436024000" expanded="true" signature="1812:2395" ph="newLink...{&#10;                        node {&#10;                            id&#10;                            url&#10;                            description&#10;                            createdAt&#10;                            postedBy {&#10;                                id&#10;                                name&#10;                            }&#10;                            votes {&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }&#10;                        }&#10;                    }" />
-            <marker date="1522436024000" expanded="true" signature="1820:2395" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="1846:1850" ph="node...node" />
-            <marker date="1522436024000" expanded="true" signature="1846:2373" ph="node...{&#10;                            id&#10;                            url&#10;                            description&#10;                            createdAt&#10;                            postedBy {&#10;                                id&#10;                                name&#10;                            }&#10;                            votes {&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }&#10;                        }" />
-            <marker date="1522436024000" expanded="true" signature="1851:2373" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="1881:1883" ph="id...id" />
-            <marker date="1522436024000" expanded="true" signature="1912:1915" ph="url...url" />
-            <marker date="1522436024000" expanded="true" signature="1944:1955" ph="description...description" />
-            <marker date="1522436024000" expanded="true" signature="1984:1993" ph="createdAt...createdAt" />
-            <marker date="1522436024000" expanded="true" signature="2022:2030" ph="postedBy...postedBy" />
-            <marker date="1522436024000" expanded="true" signature="2022:2134" ph="postedBy...{&#10;                                id&#10;                                name&#10;                            }" />
-            <marker date="1522436024000" expanded="true" signature="2031:2134" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="2065:2067" ph="id...id" />
-            <marker date="1522436024000" expanded="true" signature="2100:2104" ph="name...name" />
-            <marker date="1522436024000" expanded="true" signature="2163:2168" ph="votes...votes" />
-            <marker date="1522436024000" expanded="true" signature="2163:2347" ph="votes...{&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }" />
-            <marker date="1522436024000" expanded="true" signature="2169:2347" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="2203:2205" ph="id...id" />
-            <marker date="1522436024000" expanded="true" signature="2238:2242" ph="user...user" />
-            <marker date="1522436024000" expanded="true" signature="2238:2317" ph="user...{&#10;                                    id&#10;                                }" />
-            <marker date="1522436024000" expanded="true" signature="2243:2317" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="2281:2283" ph="id...id" />
-            <marker date="1522436024000" expanded="true" signature="2831:3198" ph="query...{&#10;      feed {&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }&#10;      }&#10;  }" />
-            <marker date="1522436024000" expanded="true" signature="2831:3202" ph="query...{&#10;      feed {&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;              postedBy {&#10;                  id&#10;                  name&#10;              }&#10;              votes {&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }&#10;          }&#10;      }&#10;  }" />
-            <marker date="1522436024000" expanded="true" signature="2837:2846" ph="FeedQuery...FeedQuery" />
-            <marker date="1522436024000" expanded="true" signature="2847:3198" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="2855:2859" ph="feed...feed" />
-            <marker date="1522436024000" expanded="true" signature="2855:3190" ph="feed...{&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }&#10;      }" />
-            <marker date="1522436024000" expanded="true" signature="2855:3198" ph="feed...{&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;              postedBy {&#10;                  id&#10;                  name&#10;              }&#10;              votes {&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }&#10;          }&#10;      }" />
-            <marker date="1522436024000" expanded="true" signature="2860:3190" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="2872:2877" ph="links...links" />
-            <marker date="1522436024000" expanded="true" signature="2872:2964" ph="links...{&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }" />
-            <marker date="1522436024000" expanded="true" signature="2872:3190" ph="links...{&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;              postedBy {&#10;                  id&#10;                  name&#10;              }&#10;              votes {&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }&#10;          }" />
-            <marker date="1522436024000" expanded="true" signature="2878:2964" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="2894:2896" ph="id...id" />
-            <marker date="1522436024000" expanded="true" signature="2911:2920" ph="createdAt...createdAt" />
-            <marker date="1522436024000" expanded="true" signature="2935:2938" ph="url...url" />
-            <marker date="1522436024000" expanded="true" signature="2953:2964" ph="description...description" />
-            <marker date="1522436024000" expanded="true" signature="2979:2987" ph="postedBy...postedBy" />
-            <marker date="1522436024000" expanded="true" signature="2979:3049" ph="postedBy...{&#10;                  id&#10;                  name&#10;              }" />
-            <marker date="1522436024000" expanded="true" signature="2988:3049" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="3008:3010" ph="id...id" />
-            <marker date="1522436024000" expanded="true" signature="3029:3033" ph="name...name" />
-            <marker date="1522436024000" expanded="true" signature="3064:3069" ph="votes...votes" />
-            <marker date="1522436024000" expanded="true" signature="3064:3178" ph="votes...{&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }" />
-            <marker date="1522436024000" expanded="true" signature="3070:3178" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="3090:3092" ph="id...id" />
-            <marker date="1522436024000" expanded="true" signature="3111:3115" ph="user...user" />
-            <marker date="1522436024000" expanded="true" signature="3111:3162" ph="user...{&#10;                      id&#10;                  }" />
-            <marker date="1522436024000" expanded="true" signature="3116:3162" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="3140:3142" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="1665:2301" ph="subscription...{&#10;                    newLink {&#10;                        node {&#10;                            id&#10;                            url&#10;                            description&#10;                            createdAt&#10;                            postedBy {&#10;                                id&#10;                                name&#10;                            }&#10;                            votes {&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }&#10;                        }&#10;                    }&#10;                }" />
+            <marker date="1522436916000" expanded="true" signature="1678:2301" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="1700:1707" ph="newLink...newLink" />
+            <marker date="1522436916000" expanded="true" signature="1700:2283" ph="newLink...{&#10;                        node {&#10;                            id&#10;                            url&#10;                            description&#10;                            createdAt&#10;                            postedBy {&#10;                                id&#10;                                name&#10;                            }&#10;                            votes {&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }&#10;                        }&#10;                    }" />
+            <marker date="1522436916000" expanded="true" signature="1708:2283" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="1734:1738" ph="node...node" />
+            <marker date="1522436916000" expanded="true" signature="1734:2261" ph="node...{&#10;                            id&#10;                            url&#10;                            description&#10;                            createdAt&#10;                            postedBy {&#10;                                id&#10;                                name&#10;                            }&#10;                            votes {&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }&#10;                        }" />
+            <marker date="1522436916000" expanded="true" signature="1739:2261" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="1769:1771" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="1800:1803" ph="url...url" />
+            <marker date="1522436916000" expanded="true" signature="1832:1843" ph="description...description" />
+            <marker date="1522436916000" expanded="true" signature="1872:1881" ph="createdAt...createdAt" />
+            <marker date="1522436916000" expanded="true" signature="1910:1918" ph="postedBy...postedBy" />
+            <marker date="1522436916000" expanded="true" signature="1910:2022" ph="postedBy...{&#10;                                id&#10;                                name&#10;                            }" />
+            <marker date="1522436916000" expanded="true" signature="1919:2022" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="1953:1955" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="1988:1992" ph="name...name" />
+            <marker date="1522436916000" expanded="true" signature="2051:2056" ph="votes...votes" />
+            <marker date="1522436916000" expanded="true" signature="2051:2235" ph="votes...{&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }" />
+            <marker date="1522436916000" expanded="true" signature="2057:2235" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="2091:2093" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="2126:2130" ph="user...user" />
+            <marker date="1522436916000" expanded="true" signature="2126:2205" ph="user...{&#10;                                    id&#10;                                }" />
+            <marker date="1522436916000" expanded="true" signature="2131:2205" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="2169:2171" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="2809:3697" ph="subscription...{&#10;                    newVote {&#10;                        node {&#10;                            id&#10;                            link {&#10;                                id&#10;                                url&#10;                                description&#10;                                createdAt&#10;                                postedBy {&#10;                                    id&#10;                                    name&#10;                                }&#10;                                votes {&#10;                                    id&#10;                                    user {&#10;                                        id&#10;                                    }&#10;                                }&#10;                            }&#10;                            user {&#10;                                id&#10;                            }&#10;                        }&#10;                    }&#10;                }" />
+            <marker date="1522436916000" expanded="true" signature="2822:3697" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="2844:2851" ph="newVote...newVote" />
+            <marker date="1522436916000" expanded="true" signature="2844:3679" ph="newVote...{&#10;                        node {&#10;                            id&#10;                            link {&#10;                                id&#10;                                url&#10;                                description&#10;                                createdAt&#10;                                postedBy {&#10;                                    id&#10;                                    name&#10;                                }&#10;                                votes {&#10;                                    id&#10;                                    user {&#10;                                        id&#10;                                    }&#10;                                }&#10;                            }&#10;                            user {&#10;                                id&#10;                            }&#10;                        }&#10;                    }" />
+            <marker date="1522436916000" expanded="true" signature="2852:3679" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="2878:2882" ph="node...node" />
+            <marker date="1522436916000" expanded="true" signature="2878:3657" ph="node...{&#10;                            id&#10;                            link {&#10;                                id&#10;                                url&#10;                                description&#10;                                createdAt&#10;                                postedBy {&#10;                                    id&#10;                                    name&#10;                                }&#10;                                votes {&#10;                                    id&#10;                                    user {&#10;                                        id&#10;                                    }&#10;                                }&#10;                            }&#10;                            user {&#10;                                id&#10;                            }&#10;                        }" />
+            <marker date="1522436916000" expanded="true" signature="2883:3657" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="2913:2915" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="2944:2948" ph="link...link" />
+            <marker date="1522436916000" expanded="true" signature="2944:3531" ph="link...{&#10;                                id&#10;                                url&#10;                                description&#10;                                createdAt&#10;                                postedBy {&#10;                                    id&#10;                                    name&#10;                                }&#10;                                votes {&#10;                                    id&#10;                                    user {&#10;                                        id&#10;                                    }&#10;                                }&#10;                            }" />
+            <marker date="1522436916000" expanded="true" signature="2949:3531" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="2983:2985" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="3018:3021" ph="url...url" />
+            <marker date="1522436916000" expanded="true" signature="3054:3065" ph="description...description" />
+            <marker date="1522436916000" expanded="true" signature="3098:3107" ph="createdAt...createdAt" />
+            <marker date="1522436916000" expanded="true" signature="3140:3148" ph="postedBy...postedBy" />
+            <marker date="1522436916000" expanded="true" signature="3140:3264" ph="postedBy...{&#10;                                    id&#10;                                    name&#10;                                }" />
+            <marker date="1522436916000" expanded="true" signature="3149:3264" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="3187:3189" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="3226:3230" ph="name...name" />
+            <marker date="1522436916000" expanded="true" signature="3297:3302" ph="votes...votes" />
+            <marker date="1522436916000" expanded="true" signature="3297:3501" ph="votes...{&#10;                                    id&#10;                                    user {&#10;                                        id&#10;                                    }&#10;                                }" />
+            <marker date="1522436916000" expanded="true" signature="3303:3501" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="3341:3343" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="3380:3384" ph="user...user" />
+            <marker date="1522436916000" expanded="true" signature="3380:3467" ph="user...{&#10;                                        id&#10;                                    }" />
+            <marker date="1522436916000" expanded="true" signature="3385:3467" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="3427:3429" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="3560:3564" ph="user...user" />
+            <marker date="1522436916000" expanded="true" signature="3560:3631" ph="user...{&#10;                                id&#10;                            }" />
+            <marker date="1522436916000" expanded="true" signature="3565:3631" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="3599:3601" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="3917:4284" ph="query...{&#10;      feed {&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }&#10;      }&#10;  }" />
+            <marker date="1522436916000" expanded="true" signature="3917:4288" ph="query...{&#10;      feed {&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;              postedBy {&#10;                  id&#10;                  name&#10;              }&#10;              votes {&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }&#10;          }&#10;      }&#10;  }" />
+            <marker date="1522436916000" expanded="true" signature="3923:3932" ph="FeedQuery...FeedQuery" />
+            <marker date="1522436916000" expanded="true" signature="3933:4284" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="3941:3945" ph="feed...feed" />
+            <marker date="1522436916000" expanded="true" signature="3941:4276" ph="feed...{&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }&#10;      }" />
+            <marker date="1522436916000" expanded="true" signature="3941:4284" ph="feed...{&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;              postedBy {&#10;                  id&#10;                  name&#10;              }&#10;              votes {&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }&#10;          }&#10;      }" />
+            <marker date="1522436916000" expanded="true" signature="3946:4276" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="3958:3963" ph="links...links" />
+            <marker date="1522436916000" expanded="true" signature="3958:4050" ph="links...{&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }" />
+            <marker date="1522436916000" expanded="true" signature="3958:4276" ph="links...{&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;              postedBy {&#10;                  id&#10;                  name&#10;              }&#10;              votes {&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }&#10;          }" />
+            <marker date="1522436916000" expanded="true" signature="3964:4050" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="3980:3982" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="3997:4006" ph="createdAt...createdAt" />
+            <marker date="1522436916000" expanded="true" signature="4021:4024" ph="url...url" />
+            <marker date="1522436916000" expanded="true" signature="4039:4050" ph="description...description" />
+            <marker date="1522436916000" expanded="true" signature="4065:4073" ph="postedBy...postedBy" />
+            <marker date="1522436916000" expanded="true" signature="4065:4135" ph="postedBy...{&#10;                  id&#10;                  name&#10;              }" />
+            <marker date="1522436916000" expanded="true" signature="4074:4135" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="4094:4096" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="4115:4119" ph="name...name" />
+            <marker date="1522436916000" expanded="true" signature="4150:4155" ph="votes...votes" />
+            <marker date="1522436916000" expanded="true" signature="4150:4264" ph="votes...{&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }" />
+            <marker date="1522436916000" expanded="true" signature="4156:4264" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="4176:4178" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="4197:4201" ph="user...user" />
+            <marker date="1522436916000" expanded="true" signature="4197:4248" ph="user...{&#10;                      id&#10;                  }" />
+            <marker date="1522436916000" expanded="true" signature="4202:4248" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="4226:4228" ph="id...id" />
           </folding>
         </state>
       </provider>
@@ -772,60 +842,93 @@
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="30" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-            <marker date="1522436024000" expanded="true" signature="1777:2413" ph="subscription...{&#10;                    newLink {&#10;                        node {&#10;                            id&#10;                            url&#10;                            description&#10;                            createdAt&#10;                            postedBy {&#10;                                id&#10;                                name&#10;                            }&#10;                            votes {&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }&#10;                        }&#10;                    }&#10;                }" />
-            <marker date="1522436024000" expanded="true" signature="1790:2413" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="1812:1819" ph="newLink...newLink" />
-            <marker date="1522436024000" expanded="true" signature="1812:2395" ph="newLink...{&#10;                        node {&#10;                            id&#10;                            url&#10;                            description&#10;                            createdAt&#10;                            postedBy {&#10;                                id&#10;                                name&#10;                            }&#10;                            votes {&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }&#10;                        }&#10;                    }" />
-            <marker date="1522436024000" expanded="true" signature="1820:2395" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="1846:1850" ph="node...node" />
-            <marker date="1522436024000" expanded="true" signature="1846:2373" ph="node...{&#10;                            id&#10;                            url&#10;                            description&#10;                            createdAt&#10;                            postedBy {&#10;                                id&#10;                                name&#10;                            }&#10;                            votes {&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }&#10;                        }" />
-            <marker date="1522436024000" expanded="true" signature="1851:2373" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="1881:1883" ph="id...id" />
-            <marker date="1522436024000" expanded="true" signature="1912:1915" ph="url...url" />
-            <marker date="1522436024000" expanded="true" signature="1944:1955" ph="description...description" />
-            <marker date="1522436024000" expanded="true" signature="1984:1993" ph="createdAt...createdAt" />
-            <marker date="1522436024000" expanded="true" signature="2022:2030" ph="postedBy...postedBy" />
-            <marker date="1522436024000" expanded="true" signature="2022:2134" ph="postedBy...{&#10;                                id&#10;                                name&#10;                            }" />
-            <marker date="1522436024000" expanded="true" signature="2031:2134" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="2065:2067" ph="id...id" />
-            <marker date="1522436024000" expanded="true" signature="2100:2104" ph="name...name" />
-            <marker date="1522436024000" expanded="true" signature="2163:2168" ph="votes...votes" />
-            <marker date="1522436024000" expanded="true" signature="2163:2347" ph="votes...{&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }" />
-            <marker date="1522436024000" expanded="true" signature="2169:2347" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="2203:2205" ph="id...id" />
-            <marker date="1522436024000" expanded="true" signature="2238:2242" ph="user...user" />
-            <marker date="1522436024000" expanded="true" signature="2238:2317" ph="user...{&#10;                                    id&#10;                                }" />
-            <marker date="1522436024000" expanded="true" signature="2243:2317" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="2281:2283" ph="id...id" />
-            <marker date="1522436024000" expanded="true" signature="2831:3198" ph="query...{&#10;      feed {&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }&#10;      }&#10;  }" />
-            <marker date="1522436024000" expanded="true" signature="2831:3202" ph="query...{&#10;      feed {&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;              postedBy {&#10;                  id&#10;                  name&#10;              }&#10;              votes {&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }&#10;          }&#10;      }&#10;  }" />
-            <marker date="1522436024000" expanded="true" signature="2837:2846" ph="FeedQuery...FeedQuery" />
-            <marker date="1522436024000" expanded="true" signature="2847:3198" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="2855:2859" ph="feed...feed" />
-            <marker date="1522436024000" expanded="true" signature="2855:3190" ph="feed...{&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }&#10;      }" />
-            <marker date="1522436024000" expanded="true" signature="2855:3198" ph="feed...{&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;              postedBy {&#10;                  id&#10;                  name&#10;              }&#10;              votes {&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }&#10;          }&#10;      }" />
-            <marker date="1522436024000" expanded="true" signature="2860:3190" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="2872:2877" ph="links...links" />
-            <marker date="1522436024000" expanded="true" signature="2872:2964" ph="links...{&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }" />
-            <marker date="1522436024000" expanded="true" signature="2872:3190" ph="links...{&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;              postedBy {&#10;                  id&#10;                  name&#10;              }&#10;              votes {&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }&#10;          }" />
-            <marker date="1522436024000" expanded="true" signature="2878:2964" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="2894:2896" ph="id...id" />
-            <marker date="1522436024000" expanded="true" signature="2911:2920" ph="createdAt...createdAt" />
-            <marker date="1522436024000" expanded="true" signature="2935:2938" ph="url...url" />
-            <marker date="1522436024000" expanded="true" signature="2953:2964" ph="description...description" />
-            <marker date="1522436024000" expanded="true" signature="2979:2987" ph="postedBy...postedBy" />
-            <marker date="1522436024000" expanded="true" signature="2979:3049" ph="postedBy...{&#10;                  id&#10;                  name&#10;              }" />
-            <marker date="1522436024000" expanded="true" signature="2988:3049" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="3008:3010" ph="id...id" />
-            <marker date="1522436024000" expanded="true" signature="3029:3033" ph="name...name" />
-            <marker date="1522436024000" expanded="true" signature="3064:3069" ph="votes...votes" />
-            <marker date="1522436024000" expanded="true" signature="3064:3178" ph="votes...{&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }" />
-            <marker date="1522436024000" expanded="true" signature="3070:3178" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="3090:3092" ph="id...id" />
-            <marker date="1522436024000" expanded="true" signature="3111:3115" ph="user...user" />
-            <marker date="1522436024000" expanded="true" signature="3111:3162" ph="user...{&#10;                      id&#10;                  }" />
-            <marker date="1522436024000" expanded="true" signature="3116:3162" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="3140:3142" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="1665:2301" ph="subscription...{&#10;                    newLink {&#10;                        node {&#10;                            id&#10;                            url&#10;                            description&#10;                            createdAt&#10;                            postedBy {&#10;                                id&#10;                                name&#10;                            }&#10;                            votes {&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }&#10;                        }&#10;                    }&#10;                }" />
+            <marker date="1522436916000" expanded="true" signature="1678:2301" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="1700:1707" ph="newLink...newLink" />
+            <marker date="1522436916000" expanded="true" signature="1700:2283" ph="newLink...{&#10;                        node {&#10;                            id&#10;                            url&#10;                            description&#10;                            createdAt&#10;                            postedBy {&#10;                                id&#10;                                name&#10;                            }&#10;                            votes {&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }&#10;                        }&#10;                    }" />
+            <marker date="1522436916000" expanded="true" signature="1708:2283" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="1734:1738" ph="node...node" />
+            <marker date="1522436916000" expanded="true" signature="1734:2261" ph="node...{&#10;                            id&#10;                            url&#10;                            description&#10;                            createdAt&#10;                            postedBy {&#10;                                id&#10;                                name&#10;                            }&#10;                            votes {&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }&#10;                        }" />
+            <marker date="1522436916000" expanded="true" signature="1739:2261" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="1769:1771" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="1800:1803" ph="url...url" />
+            <marker date="1522436916000" expanded="true" signature="1832:1843" ph="description...description" />
+            <marker date="1522436916000" expanded="true" signature="1872:1881" ph="createdAt...createdAt" />
+            <marker date="1522436916000" expanded="true" signature="1910:1918" ph="postedBy...postedBy" />
+            <marker date="1522436916000" expanded="true" signature="1910:2022" ph="postedBy...{&#10;                                id&#10;                                name&#10;                            }" />
+            <marker date="1522436916000" expanded="true" signature="1919:2022" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="1953:1955" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="1988:1992" ph="name...name" />
+            <marker date="1522436916000" expanded="true" signature="2051:2056" ph="votes...votes" />
+            <marker date="1522436916000" expanded="true" signature="2051:2235" ph="votes...{&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }" />
+            <marker date="1522436916000" expanded="true" signature="2057:2235" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="2091:2093" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="2126:2130" ph="user...user" />
+            <marker date="1522436916000" expanded="true" signature="2126:2205" ph="user...{&#10;                                    id&#10;                                }" />
+            <marker date="1522436916000" expanded="true" signature="2131:2205" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="2169:2171" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="2809:3697" ph="subscription...{&#10;                    newVote {&#10;                        node {&#10;                            id&#10;                            link {&#10;                                id&#10;                                url&#10;                                description&#10;                                createdAt&#10;                                postedBy {&#10;                                    id&#10;                                    name&#10;                                }&#10;                                votes {&#10;                                    id&#10;                                    user {&#10;                                        id&#10;                                    }&#10;                                }&#10;                            }&#10;                            user {&#10;                                id&#10;                            }&#10;                        }&#10;                    }&#10;                }" />
+            <marker date="1522436916000" expanded="true" signature="2822:3697" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="2844:2851" ph="newVote...newVote" />
+            <marker date="1522436916000" expanded="true" signature="2844:3679" ph="newVote...{&#10;                        node {&#10;                            id&#10;                            link {&#10;                                id&#10;                                url&#10;                                description&#10;                                createdAt&#10;                                postedBy {&#10;                                    id&#10;                                    name&#10;                                }&#10;                                votes {&#10;                                    id&#10;                                    user {&#10;                                        id&#10;                                    }&#10;                                }&#10;                            }&#10;                            user {&#10;                                id&#10;                            }&#10;                        }&#10;                    }" />
+            <marker date="1522436916000" expanded="true" signature="2852:3679" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="2878:2882" ph="node...node" />
+            <marker date="1522436916000" expanded="true" signature="2878:3657" ph="node...{&#10;                            id&#10;                            link {&#10;                                id&#10;                                url&#10;                                description&#10;                                createdAt&#10;                                postedBy {&#10;                                    id&#10;                                    name&#10;                                }&#10;                                votes {&#10;                                    id&#10;                                    user {&#10;                                        id&#10;                                    }&#10;                                }&#10;                            }&#10;                            user {&#10;                                id&#10;                            }&#10;                        }" />
+            <marker date="1522436916000" expanded="true" signature="2883:3657" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="2913:2915" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="2944:2948" ph="link...link" />
+            <marker date="1522436916000" expanded="true" signature="2944:3531" ph="link...{&#10;                                id&#10;                                url&#10;                                description&#10;                                createdAt&#10;                                postedBy {&#10;                                    id&#10;                                    name&#10;                                }&#10;                                votes {&#10;                                    id&#10;                                    user {&#10;                                        id&#10;                                    }&#10;                                }&#10;                            }" />
+            <marker date="1522436916000" expanded="true" signature="2949:3531" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="2983:2985" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="3018:3021" ph="url...url" />
+            <marker date="1522436916000" expanded="true" signature="3054:3065" ph="description...description" />
+            <marker date="1522436916000" expanded="true" signature="3098:3107" ph="createdAt...createdAt" />
+            <marker date="1522436916000" expanded="true" signature="3140:3148" ph="postedBy...postedBy" />
+            <marker date="1522436916000" expanded="true" signature="3140:3264" ph="postedBy...{&#10;                                    id&#10;                                    name&#10;                                }" />
+            <marker date="1522436916000" expanded="true" signature="3149:3264" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="3187:3189" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="3226:3230" ph="name...name" />
+            <marker date="1522436916000" expanded="true" signature="3297:3302" ph="votes...votes" />
+            <marker date="1522436916000" expanded="true" signature="3297:3501" ph="votes...{&#10;                                    id&#10;                                    user {&#10;                                        id&#10;                                    }&#10;                                }" />
+            <marker date="1522436916000" expanded="true" signature="3303:3501" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="3341:3343" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="3380:3384" ph="user...user" />
+            <marker date="1522436916000" expanded="true" signature="3380:3467" ph="user...{&#10;                                        id&#10;                                    }" />
+            <marker date="1522436916000" expanded="true" signature="3385:3467" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="3427:3429" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="3560:3564" ph="user...user" />
+            <marker date="1522436916000" expanded="true" signature="3560:3631" ph="user...{&#10;                                id&#10;                            }" />
+            <marker date="1522436916000" expanded="true" signature="3565:3631" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="3599:3601" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="3917:4284" ph="query...{&#10;      feed {&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }&#10;      }&#10;  }" />
+            <marker date="1522436916000" expanded="true" signature="3917:4288" ph="query...{&#10;      feed {&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;              postedBy {&#10;                  id&#10;                  name&#10;              }&#10;              votes {&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }&#10;          }&#10;      }&#10;  }" />
+            <marker date="1522436916000" expanded="true" signature="3923:3932" ph="FeedQuery...FeedQuery" />
+            <marker date="1522436916000" expanded="true" signature="3933:4284" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="3941:3945" ph="feed...feed" />
+            <marker date="1522436916000" expanded="true" signature="3941:4276" ph="feed...{&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }&#10;      }" />
+            <marker date="1522436916000" expanded="true" signature="3941:4284" ph="feed...{&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;              postedBy {&#10;                  id&#10;                  name&#10;              }&#10;              votes {&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }&#10;          }&#10;      }" />
+            <marker date="1522436916000" expanded="true" signature="3946:4276" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="3958:3963" ph="links...links" />
+            <marker date="1522436916000" expanded="true" signature="3958:4050" ph="links...{&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }" />
+            <marker date="1522436916000" expanded="true" signature="3958:4276" ph="links...{&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;              postedBy {&#10;                  id&#10;                  name&#10;              }&#10;              votes {&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }&#10;          }" />
+            <marker date="1522436916000" expanded="true" signature="3964:4050" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="3980:3982" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="3997:4006" ph="createdAt...createdAt" />
+            <marker date="1522436916000" expanded="true" signature="4021:4024" ph="url...url" />
+            <marker date="1522436916000" expanded="true" signature="4039:4050" ph="description...description" />
+            <marker date="1522436916000" expanded="true" signature="4065:4073" ph="postedBy...postedBy" />
+            <marker date="1522436916000" expanded="true" signature="4065:4135" ph="postedBy...{&#10;                  id&#10;                  name&#10;              }" />
+            <marker date="1522436916000" expanded="true" signature="4074:4135" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="4094:4096" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="4115:4119" ph="name...name" />
+            <marker date="1522436916000" expanded="true" signature="4150:4155" ph="votes...votes" />
+            <marker date="1522436916000" expanded="true" signature="4150:4264" ph="votes...{&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }" />
+            <marker date="1522436916000" expanded="true" signature="4156:4264" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="4176:4178" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="4197:4201" ph="user...user" />
+            <marker date="1522436916000" expanded="true" signature="4197:4248" ph="user...{&#10;                      id&#10;                  }" />
+            <marker date="1522436916000" expanded="true" signature="4202:4248" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="4226:4228" ph="id...id" />
           </folding>
         </state>
       </provider>
@@ -1191,64 +1294,97 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/LinkList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        <state relative-caret-position="272">
+          <caret line="88" column="16" lean-forward="false" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-            <marker date="1522436024000" expanded="true" signature="1777:2413" ph="subscription...{&#10;                    newLink {&#10;                        node {&#10;                            id&#10;                            url&#10;                            description&#10;                            createdAt&#10;                            postedBy {&#10;                                id&#10;                                name&#10;                            }&#10;                            votes {&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }&#10;                        }&#10;                    }&#10;                }" />
-            <marker date="1522436024000" expanded="true" signature="1790:2413" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="1812:1819" ph="newLink...newLink" />
-            <marker date="1522436024000" expanded="true" signature="1812:2395" ph="newLink...{&#10;                        node {&#10;                            id&#10;                            url&#10;                            description&#10;                            createdAt&#10;                            postedBy {&#10;                                id&#10;                                name&#10;                            }&#10;                            votes {&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }&#10;                        }&#10;                    }" />
-            <marker date="1522436024000" expanded="true" signature="1820:2395" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="1846:1850" ph="node...node" />
-            <marker date="1522436024000" expanded="true" signature="1846:2373" ph="node...{&#10;                            id&#10;                            url&#10;                            description&#10;                            createdAt&#10;                            postedBy {&#10;                                id&#10;                                name&#10;                            }&#10;                            votes {&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }&#10;                        }" />
-            <marker date="1522436024000" expanded="true" signature="1851:2373" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="1881:1883" ph="id...id" />
-            <marker date="1522436024000" expanded="true" signature="1912:1915" ph="url...url" />
-            <marker date="1522436024000" expanded="true" signature="1944:1955" ph="description...description" />
-            <marker date="1522436024000" expanded="true" signature="1984:1993" ph="createdAt...createdAt" />
-            <marker date="1522436024000" expanded="true" signature="2022:2030" ph="postedBy...postedBy" />
-            <marker date="1522436024000" expanded="true" signature="2022:2134" ph="postedBy...{&#10;                                id&#10;                                name&#10;                            }" />
-            <marker date="1522436024000" expanded="true" signature="2031:2134" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="2065:2067" ph="id...id" />
-            <marker date="1522436024000" expanded="true" signature="2100:2104" ph="name...name" />
-            <marker date="1522436024000" expanded="true" signature="2163:2168" ph="votes...votes" />
-            <marker date="1522436024000" expanded="true" signature="2163:2347" ph="votes...{&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }" />
-            <marker date="1522436024000" expanded="true" signature="2169:2347" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="2203:2205" ph="id...id" />
-            <marker date="1522436024000" expanded="true" signature="2238:2242" ph="user...user" />
-            <marker date="1522436024000" expanded="true" signature="2238:2317" ph="user...{&#10;                                    id&#10;                                }" />
-            <marker date="1522436024000" expanded="true" signature="2243:2317" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="2281:2283" ph="id...id" />
-            <marker date="1522436024000" expanded="true" signature="2831:3198" ph="query...{&#10;      feed {&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }&#10;      }&#10;  }" />
-            <marker date="1522436024000" expanded="true" signature="2831:3202" ph="query...{&#10;      feed {&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;              postedBy {&#10;                  id&#10;                  name&#10;              }&#10;              votes {&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }&#10;          }&#10;      }&#10;  }" />
-            <marker date="1522436024000" expanded="true" signature="2837:2846" ph="FeedQuery...FeedQuery" />
-            <marker date="1522436024000" expanded="true" signature="2847:3198" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="2855:2859" ph="feed...feed" />
-            <marker date="1522436024000" expanded="true" signature="2855:3190" ph="feed...{&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }&#10;      }" />
-            <marker date="1522436024000" expanded="true" signature="2855:3198" ph="feed...{&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;              postedBy {&#10;                  id&#10;                  name&#10;              }&#10;              votes {&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }&#10;          }&#10;      }" />
-            <marker date="1522436024000" expanded="true" signature="2860:3190" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="2872:2877" ph="links...links" />
-            <marker date="1522436024000" expanded="true" signature="2872:2964" ph="links...{&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }" />
-            <marker date="1522436024000" expanded="true" signature="2872:3190" ph="links...{&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;              postedBy {&#10;                  id&#10;                  name&#10;              }&#10;              votes {&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }&#10;          }" />
-            <marker date="1522436024000" expanded="true" signature="2878:2964" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="2894:2896" ph="id...id" />
-            <marker date="1522436024000" expanded="true" signature="2911:2920" ph="createdAt...createdAt" />
-            <marker date="1522436024000" expanded="true" signature="2935:2938" ph="url...url" />
-            <marker date="1522436024000" expanded="true" signature="2953:2964" ph="description...description" />
-            <marker date="1522436024000" expanded="true" signature="2979:2987" ph="postedBy...postedBy" />
-            <marker date="1522436024000" expanded="true" signature="2979:3049" ph="postedBy...{&#10;                  id&#10;                  name&#10;              }" />
-            <marker date="1522436024000" expanded="true" signature="2988:3049" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="3008:3010" ph="id...id" />
-            <marker date="1522436024000" expanded="true" signature="3029:3033" ph="name...name" />
-            <marker date="1522436024000" expanded="true" signature="3064:3069" ph="votes...votes" />
-            <marker date="1522436024000" expanded="true" signature="3064:3178" ph="votes...{&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }" />
-            <marker date="1522436024000" expanded="true" signature="3070:3178" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="3090:3092" ph="id...id" />
-            <marker date="1522436024000" expanded="true" signature="3111:3115" ph="user...user" />
-            <marker date="1522436024000" expanded="true" signature="3111:3162" ph="user...{&#10;                      id&#10;                  }" />
-            <marker date="1522436024000" expanded="true" signature="3116:3162" ph="{...}" />
-            <marker date="1522436024000" expanded="true" signature="3140:3142" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="1665:2301" ph="subscription...{&#10;                    newLink {&#10;                        node {&#10;                            id&#10;                            url&#10;                            description&#10;                            createdAt&#10;                            postedBy {&#10;                                id&#10;                                name&#10;                            }&#10;                            votes {&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }&#10;                        }&#10;                    }&#10;                }" />
+            <marker date="1522436916000" expanded="true" signature="1678:2301" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="1700:1707" ph="newLink...newLink" />
+            <marker date="1522436916000" expanded="true" signature="1700:2283" ph="newLink...{&#10;                        node {&#10;                            id&#10;                            url&#10;                            description&#10;                            createdAt&#10;                            postedBy {&#10;                                id&#10;                                name&#10;                            }&#10;                            votes {&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }&#10;                        }&#10;                    }" />
+            <marker date="1522436916000" expanded="true" signature="1708:2283" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="1734:1738" ph="node...node" />
+            <marker date="1522436916000" expanded="true" signature="1734:2261" ph="node...{&#10;                            id&#10;                            url&#10;                            description&#10;                            createdAt&#10;                            postedBy {&#10;                                id&#10;                                name&#10;                            }&#10;                            votes {&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }&#10;                        }" />
+            <marker date="1522436916000" expanded="true" signature="1739:2261" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="1769:1771" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="1800:1803" ph="url...url" />
+            <marker date="1522436916000" expanded="true" signature="1832:1843" ph="description...description" />
+            <marker date="1522436916000" expanded="true" signature="1872:1881" ph="createdAt...createdAt" />
+            <marker date="1522436916000" expanded="true" signature="1910:1918" ph="postedBy...postedBy" />
+            <marker date="1522436916000" expanded="true" signature="1910:2022" ph="postedBy...{&#10;                                id&#10;                                name&#10;                            }" />
+            <marker date="1522436916000" expanded="true" signature="1919:2022" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="1953:1955" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="1988:1992" ph="name...name" />
+            <marker date="1522436916000" expanded="true" signature="2051:2056" ph="votes...votes" />
+            <marker date="1522436916000" expanded="true" signature="2051:2235" ph="votes...{&#10;                                id&#10;                                user {&#10;                                    id&#10;                                }&#10;                            }" />
+            <marker date="1522436916000" expanded="true" signature="2057:2235" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="2091:2093" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="2126:2130" ph="user...user" />
+            <marker date="1522436916000" expanded="true" signature="2126:2205" ph="user...{&#10;                                    id&#10;                                }" />
+            <marker date="1522436916000" expanded="true" signature="2131:2205" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="2169:2171" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="2809:3697" ph="subscription...{&#10;                    newVote {&#10;                        node {&#10;                            id&#10;                            link {&#10;                                id&#10;                                url&#10;                                description&#10;                                createdAt&#10;                                postedBy {&#10;                                    id&#10;                                    name&#10;                                }&#10;                                votes {&#10;                                    id&#10;                                    user {&#10;                                        id&#10;                                    }&#10;                                }&#10;                            }&#10;                            user {&#10;                                id&#10;                            }&#10;                        }&#10;                    }&#10;                }" />
+            <marker date="1522436916000" expanded="true" signature="2822:3697" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="2844:2851" ph="newVote...newVote" />
+            <marker date="1522436916000" expanded="true" signature="2844:3679" ph="newVote...{&#10;                        node {&#10;                            id&#10;                            link {&#10;                                id&#10;                                url&#10;                                description&#10;                                createdAt&#10;                                postedBy {&#10;                                    id&#10;                                    name&#10;                                }&#10;                                votes {&#10;                                    id&#10;                                    user {&#10;                                        id&#10;                                    }&#10;                                }&#10;                            }&#10;                            user {&#10;                                id&#10;                            }&#10;                        }&#10;                    }" />
+            <marker date="1522436916000" expanded="true" signature="2852:3679" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="2878:2882" ph="node...node" />
+            <marker date="1522436916000" expanded="true" signature="2878:3657" ph="node...{&#10;                            id&#10;                            link {&#10;                                id&#10;                                url&#10;                                description&#10;                                createdAt&#10;                                postedBy {&#10;                                    id&#10;                                    name&#10;                                }&#10;                                votes {&#10;                                    id&#10;                                    user {&#10;                                        id&#10;                                    }&#10;                                }&#10;                            }&#10;                            user {&#10;                                id&#10;                            }&#10;                        }" />
+            <marker date="1522436916000" expanded="true" signature="2883:3657" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="2913:2915" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="2944:2948" ph="link...link" />
+            <marker date="1522436916000" expanded="true" signature="2944:3531" ph="link...{&#10;                                id&#10;                                url&#10;                                description&#10;                                createdAt&#10;                                postedBy {&#10;                                    id&#10;                                    name&#10;                                }&#10;                                votes {&#10;                                    id&#10;                                    user {&#10;                                        id&#10;                                    }&#10;                                }&#10;                            }" />
+            <marker date="1522436916000" expanded="true" signature="2949:3531" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="2983:2985" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="3018:3021" ph="url...url" />
+            <marker date="1522436916000" expanded="true" signature="3054:3065" ph="description...description" />
+            <marker date="1522436916000" expanded="true" signature="3098:3107" ph="createdAt...createdAt" />
+            <marker date="1522436916000" expanded="true" signature="3140:3148" ph="postedBy...postedBy" />
+            <marker date="1522436916000" expanded="true" signature="3140:3264" ph="postedBy...{&#10;                                    id&#10;                                    name&#10;                                }" />
+            <marker date="1522436916000" expanded="true" signature="3149:3264" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="3187:3189" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="3226:3230" ph="name...name" />
+            <marker date="1522436916000" expanded="true" signature="3297:3302" ph="votes...votes" />
+            <marker date="1522436916000" expanded="true" signature="3297:3501" ph="votes...{&#10;                                    id&#10;                                    user {&#10;                                        id&#10;                                    }&#10;                                }" />
+            <marker date="1522436916000" expanded="true" signature="3303:3501" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="3341:3343" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="3380:3384" ph="user...user" />
+            <marker date="1522436916000" expanded="true" signature="3380:3467" ph="user...{&#10;                                        id&#10;                                    }" />
+            <marker date="1522436916000" expanded="true" signature="3385:3467" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="3427:3429" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="3560:3564" ph="user...user" />
+            <marker date="1522436916000" expanded="true" signature="3560:3631" ph="user...{&#10;                                id&#10;                            }" />
+            <marker date="1522436916000" expanded="true" signature="3565:3631" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="3599:3601" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="3917:4284" ph="query...{&#10;      feed {&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }&#10;      }&#10;  }" />
+            <marker date="1522436916000" expanded="true" signature="3917:4288" ph="query...{&#10;      feed {&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;              postedBy {&#10;                  id&#10;                  name&#10;              }&#10;              votes {&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }&#10;          }&#10;      }&#10;  }" />
+            <marker date="1522436916000" expanded="true" signature="3923:3932" ph="FeedQuery...FeedQuery" />
+            <marker date="1522436916000" expanded="true" signature="3933:4284" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="3941:3945" ph="feed...feed" />
+            <marker date="1522436916000" expanded="true" signature="3941:4276" ph="feed...{&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }&#10;      }" />
+            <marker date="1522436916000" expanded="true" signature="3941:4284" ph="feed...{&#10;          links {&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;              postedBy {&#10;                  id&#10;                  name&#10;              }&#10;              votes {&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }&#10;          }&#10;      }" />
+            <marker date="1522436916000" expanded="true" signature="3946:4276" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="3958:3963" ph="links...links" />
+            <marker date="1522436916000" expanded="true" signature="3958:4050" ph="links...{&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;          }" />
+            <marker date="1522436916000" expanded="true" signature="3958:4276" ph="links...{&#10;              id&#10;              createdAt&#10;              url&#10;              description&#10;              postedBy {&#10;                  id&#10;                  name&#10;              }&#10;              votes {&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }&#10;          }" />
+            <marker date="1522436916000" expanded="true" signature="3964:4050" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="3980:3982" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="3997:4006" ph="createdAt...createdAt" />
+            <marker date="1522436916000" expanded="true" signature="4021:4024" ph="url...url" />
+            <marker date="1522436916000" expanded="true" signature="4039:4050" ph="description...description" />
+            <marker date="1522436916000" expanded="true" signature="4065:4073" ph="postedBy...postedBy" />
+            <marker date="1522436916000" expanded="true" signature="4065:4135" ph="postedBy...{&#10;                  id&#10;                  name&#10;              }" />
+            <marker date="1522436916000" expanded="true" signature="4074:4135" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="4094:4096" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="4115:4119" ph="name...name" />
+            <marker date="1522436916000" expanded="true" signature="4150:4155" ph="votes...votes" />
+            <marker date="1522436916000" expanded="true" signature="4150:4264" ph="votes...{&#10;                  id&#10;                  user {&#10;                      id&#10;                  }&#10;              }" />
+            <marker date="1522436916000" expanded="true" signature="4156:4264" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="4176:4178" ph="id...id" />
+            <marker date="1522436916000" expanded="true" signature="4197:4201" ph="user...user" />
+            <marker date="1522436916000" expanded="true" signature="4197:4248" ph="user...{&#10;                      id&#10;                  }" />
+            <marker date="1522436916000" expanded="true" signature="4202:4248" ph="{...}" />
+            <marker date="1522436916000" expanded="true" signature="4226:4228" ph="id...id" />
           </folding>
         </state>
       </provider>
