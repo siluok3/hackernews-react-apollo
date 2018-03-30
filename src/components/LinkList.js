@@ -24,6 +24,10 @@ class LinkList extends Component {
             </div>
         );
     }
+    //Lifecycle method of react Components
+    componentDidMount() {
+        this._subscribeToNewLinks();
+    }
 
     _updateCacheAfterVote = (store, createVote, linkId) => {
         //Read the current state of the cached data from FEED_QUERY from the store
@@ -33,7 +37,46 @@ class LinkList extends Component {
         votedLink.votes = createVote.link.votes;
         //Write in the cache(store) the modified data
         store.writeQuery({ query: FEED_QUERY, data});
-    }
+    };
+
+    _subscribeToNewLinks = () => {
+        //subscribeToMore opens up a websocket connection to the subscription server
+        //1st argument: document, the subscription query
+        //2nd argument: updateQuery, determine how the store should be updated
+        this.props.feedQuery.subscribeToMore({
+            document: gql`
+                subscription {
+                    newLink {
+                        node {
+                            id
+                            url
+                            description
+                            createdAt
+                            postedBy {
+                                id
+                                name
+                            }
+                            votes {
+                                id
+                                user {
+                                    id
+                                }
+                            }
+                        }
+                    }
+                }
+            `,
+            updateQuery: (previous, { subscriptionData }) => {
+                const newAllLinks = [subscriptionData.data.newLink.node, ...previous.feed.links];
+                return {
+                    ...previous,
+                    feed: {
+                        links: newAllLinks,
+                    },
+                };
+            },
+        })
+    };
 }
 
 export const FEED_QUERY = gql`
